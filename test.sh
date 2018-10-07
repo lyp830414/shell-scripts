@@ -16,7 +16,7 @@ function ssldepends()
 
     cd $USER_HOME_DIR
      
-    #wget https://github.com/mongodb/mongo-c-driver/releases/download/1.10.1/mongo-c-driver-1.10.1.tar.gz --directory-prefix=$USER_HOME_DIR
+    wget https://github.com/mongodb/mongo-c-driver/releases/download/1.10.1/mongo-c-driver-1.10.1.tar.gz --directory-prefix=$USER_HOME_DIR
     if [ ! -f $USER_HOME_DIR/mongo-c-driver-1.10.1.tar.gz ];
     then
         echo "*ERROR* Fail to find the tar file: mongo-c-driver-1.9.2.tar.gz !"
